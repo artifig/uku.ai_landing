@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, h1, h2, form, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Style the intro section */
+  #intro {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  /* Style the Call To Action (CTA) section */
+  #cta {
+    background-color: #0073e6;
+    color: white;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  #subscribe-form input[type="email"] {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    width: 100%;
+  }
+  
+  #subscribe-form input[type="submit"] {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    width: 100%;
+    background-color: #00bfff;
+    border: none;
+    color: white;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Responsiveness */
+  @media only screen and (min-width: 600px) {
+    #subscribe-form input[type="email"],
+    #subscribe-form input[type="submit"] {
+      width: auto;
+    }
+  }
+  
